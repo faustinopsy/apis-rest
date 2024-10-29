@@ -1,0 +1,18 @@
+{
+    "name": "api/privada",
+    "type": "true",
+    "autoload": {
+        "psr-4": {
+            "Api\\Privada\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faustinopsy",
+            "email": "rodrigohipnose@gmail.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^16.1"
+    }
+}
