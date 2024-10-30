@@ -2,6 +2,7 @@ export default {
     components: {
     },
     template: `
+    <div>
       <h2>Pokémons</h2>
         <div v-if="pokemon">
           <img :src="pokemon.sprites.front_default" alt="Pokemon Image" width="150" />
@@ -18,6 +19,7 @@ export default {
         return {
           pokemon: null,
           pokemonId: 1,
+          posicao: null
         };
       },
       methods: {

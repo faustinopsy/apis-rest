@@ -3,7 +3,7 @@ export default {
       <nav>
         <ul>
           <li><a href="#/pokemon">pokemon</a></li>
-          <li><a href="#/rickmorty">rickmorty</a></li>
+          <li><a href="#/produtos">produtos</a></li>
         </ul>
       </nav>
     `,

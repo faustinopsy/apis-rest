@@ -1,10 +1,10 @@
 import pokemon from './apis/pokemon.js';
-import rickmorty from './apis/rickmorty.js';
+import Produtos from './apis/produtos.js';
 
 const routes = [
   { path: '/', redirect: '/pokemon' },
   { path: '/pokemon', component: pokemon },
-  { path: '/rickmorty', component: rickmorty },
+  { path: '/produtos', component: Produtos },
 ];
 
 const router = VueRouter.createRouter({
